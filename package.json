@@ -1,0 +1,24 @@
+{
+  "name": "get-computername",
+  "version": "1.0.0",
+  "description": "A tool for resolving a samAccountName into a computer name on the FPS network.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/andersj5-cbe/get-computername.git"
+  },
+  "keywords": [
+    "computer",
+    "name",
+    "FPS",
+    "history"
+  ],
+  "author": "John Anderson <andersj5@fargo.k12.nd.us>",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^3.1.11"
+  }
+}
